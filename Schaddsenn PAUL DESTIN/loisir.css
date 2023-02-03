@@ -1,0 +1,214 @@
+.loisir{
+    color: #fff;
+    background-color: rgb(236, 157, 11);
+}
+span
+{
+    width: 100%;
+    font-size: 0.9em;
+    color: blue;
+}
+
+.container
+{
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+/* Css du transition*/
+.diaporama
+{
+    width:960px;
+    margin: 0 auto;
+    height: 190px;
+    background-image :url("messi.jpg");
+    background-attachment: scroll;
+    border-bottom: none;
+    box-shadow : 6px 6px 0px darkblue;
+
+    -webkit-animation-name: diapo1;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+
+    -moz-animation-name: diapo1;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-duration: 10s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+
+    -o-animation-name: diapo1;
+    -o-animation-duration: 10s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: normal;
+
+    animation-name: diapo1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes diapo1
+{
+   0% { background-position: 0px 0px;}
+   31% { background-position: -960px 0px;}
+   64% { background-position: -1920px 0px;}
+   100%{ background-position: -2880px 0px;}
+}
+@-moz-keyframes diapo1
+{  
+0% { background-position: 0px 0px;}
+31% { background-position: -960px 0px;}
+64% { background-position: -1920px 0px;}
+100%{ background-position: -2880px 0px;}
+}
+@-o-keyframes diapo1
+{ 
+    0% { background-position: 0px 0px;}
+    31% { background-position: -960px 0px;}
+    64% { background-position: -1920px 0px;}
+    100%{ background-position: -2880px 0px;}
+}
+@keyframes diapo1
+{
+    0% { background-position: 0px 0px;}
+    31% { background-position: -960px 0px;}
+    64% { background-position: -1920px 0px;}
+    100%{ background-position: -2880px 0px;}
+}
+.sport
+{
+    padding-top: 3%;
+    text-align: center;
+    color:#B7832F;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.colonne
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+    color: darkblue; 
+    align-items: flex-start; 
+}
+
+/*  */
+.col-1
+{
+   width: 100%;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.2em;
+   padding: 1em;
+   padding-bottom: -2%; 
+}
+.col-2
+{
+   font-size: 1.2em;
+   width: 100%;
+   padding: 1em;
+}
+.col-3
+{
+   width: 100%;
+   margin-left: 4%;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.2em;
+   padding: 1em;
+}
+
+.col
+{
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 1.2em;
+   padding: 1em;
+}
+.boule
+{
+    border: 1px solid rgb(237, 242, 253);
+    border-radius: 25px;
+    border-bottom: none;
+    width: 100%;
+    height: 0.7em;
+
+    -webkit-animation-name: boule;
+    -webkit-animation-duration: 18s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+
+    -moz-animation-name: boule;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-duration: 18s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+
+    -o-animation-name: boule;
+    -o-animation-duration: 18s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: normal;
+
+    animation-name: boule;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@-webkit-keyframes boule
+{
+    0% {background-color: darkblue; top: 0px ; left: 0px; }
+    25% {background-color: rgb(0, 113, 128); top: 0px ; left: 100px; }
+    100% {background-color: rgba(0, 0, 139, 0.808); top: 0px ; left: 0px; }
+}
+@-moz-keyframes boule
+{
+    0% {background-color: darkblue; top: 0px ; left: 0px; }
+    25% {background-color: rgb(0, 113, 128); top: 0px ; left: 100px; }
+    100% {background-color: rgba(0, 0, 139, 0.808); top: 0px ; left: 0px; }
+}
+@-o-keyframes boule
+{
+    0% {background-color: darkblue; top: 0px ; left: 0px; }
+    25% {background-color: rgb(0, 113, 128); top: 0px ; left: 100px; }
+    100% {background-color: rgba(0, 0, 139, 0.808); top: 0px ; left: 0px; }
+}
+@keyframes boule
+{
+    0% {background-color: darkblue; top: 0px ; left: 0px; }
+    25% {background-color: rgb(0, 113, 128); top: 0px ; left: 100px; }
+    100% {background-color: rgba(0, 0, 139, 0.808); top: 0px ; left: 0px; }
+}
+
+.sses
+{
+    margin-top: 3%;
+    color: rgb(130, 180, 255);
+    font-size: 1.2em;
+}
+.essence,
+.realite,
+.approche1,
+.approche2,
+.approche3
+{
+    color: rgb(130, 180, 255);
+}
+footer
+{
+    text-align: center;
+    color: blue;
+    font-size: 1.1 em;
+}
+marquee
+{
+    float: right;
+}
+a:hover
+{
+   color: ora ;
+}

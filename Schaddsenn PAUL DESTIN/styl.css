@@ -1,0 +1,77 @@
+#corp-1 {
+    background-size: cover;
+    margin: 0 auto;
+    width: 80%;
+    height: 550px;
+/* ========= */
+  background-image: url("image/Pizzaart.jpg");
+  background-attachment: scroll;  
+
+  -webkit-animation-name: pizza;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+
+  -moz-animation-name: pizza;
+  -moz-animation-timing-function: linear;
+  -moz-animation-duration: 20s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: normal;
+
+  -o-animation-name: pizza;
+  -o-animation-duration: 20s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: normal;
+
+  animation-name: pizza;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+@-webkit-keyframes pizza
+{
+    0% { background-image: url("image/d1.jpg");}
+    35% { background-image: url("image/d2.jpg");}
+    55% { background-image: url("image/d5.png");}
+    75% { background-image: url("image/d1.jpg");}
+    100% { background-image: url("image/d2.jpg");}
+}
+@-moz-keyframes pizza
+{  
+    0% { background-image: url("image/d1.jpg");}
+    35% { background-image: url("image/d2.jpg");}
+    55% { background-image: url("image/d5.png");}
+    75% { background-image: url("image/d1.png");}
+    100% { background-image: url("image/d2.jpg");}
+}
+@-o-keyframes pizza
+{
+    0% { background-image: url("image/d1.jpg");}
+    35% { background-image: url("image/d2.jpg");}
+    55% { background-image: url("image/d5.png");}
+    75% { background-image: url("image/d1.jpg");}
+    100% { background-image: url("image/d2.jpg");}
+}
+@keyframes pizza
+{
+    0% { background-image: url("image/d1.jpg");}
+    35% { background-image: url("image/d2.jpg");}
+    55% { background-image: url("image/d5.png");}
+    75% { background-image: url("image/d1.jpg");}
+    100% { background-image: url("image/d2.jpg");}
+}
+/* ========== */
+#bar{
+    margin-top: 11%;
+}
+#corp-2 .buton{    
+    border-radius: 0;
+    width: 15%;
+    margin: 1%;
+    float: left;
+    padding: 1%;   
+    background-color: rgba(0, 0, 0, 0.6);
+}

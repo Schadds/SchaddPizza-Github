@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page | COMMANDE</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="form.css" />
+</head>
+<style> 
+  #imG{
+      border: 1px solid orange;
+      border-radius: 40px;
+      margin-left: -3%;
+  }
+    #xend{margin-left: 54%}
+    #qt{margin-left: 5%;}
+</style>
+<body>
+    <div id ="content">
+     <div id="tete">
+         <div id = "entete"> 
+           <div id="pizza"> 
+               <h1> <span class="paul">Schadd</span><br>
+                &nbsp;&nbsp;&nbsp;<i class="pi">Pizza</i></h1>
+           </div>      
+         </div>
+       <div id="menu">
+           <li><a href="index.html">ACCUEIL</a></li>
+           <li><a href="apropos.html">NOS PIZZAS</a></li>
+           <li> <a href="loisir.html">LOISIRS</a></li>
+           <li> <a href="pizziera.html">LES PIZZERIAS D'HAITI</a></li>
+           <li><a href="formulaire.html" class="com">FAITES VOS COMMANDES</a></li>
+           <li><a href="rejoindre.html">REJOIGNEZ-NOUS</a></li>
+       </div>
+       <hr id="hr">
+    </div>
+    <!-- ================== -->
+        <div id="pageForm">
+              <div id="form">
+                  <form action="##" method="POST">
+                      <fieldset>
+                          <legend id="lgnd"><img src="image/p1.jfif" alt="img 1" width="40px" id="imG">Schadd Pizza_Commandez Ici •</legend>
+                           <div id="firstForm">
+                            <fieldset id="info">
+                               <legend>• Infos Personnelles •</legend>
+                            <div id="st">
+                               <p> <img src="image/icone/111-user.png" alt="" /> Nom <input type="text" name="nom" placeholder=" Entrez votre nom ici" id="nom" class="inpt" required></p>
+                               <p> <img src="image/icone/111-user.png" alt=""/> Prenom <input type="text" name="prenom" placeholder="Entrer votre prenom ici" class="inpt" required></p>
+                               <p> <img src="image/icone/53-house.png" alt=""/>Adresse <input type="text" name="adresse" placeholder=" Rue Casimir, Delmas 24, HAITI" id="adre" class="inpt" required></p>
+                               <p> <img src="image/icone/18-envelope.png" alt=""/> Email <input type="email" name="email" placeholder=" schaddpizza@exemple.com" class="inpt" id="mail" required></p>
+                               <p> <img src="image/icone/75-phone.png" alt=""/>Telephone <input type="tel" placeholder=" +509..." name="phone" class="inpt" id="tel" required></p>
+                            </div>
+                            </fieldset>
+                           </div>
+                           <!-- ============ -->
+                           <div id="secndform">
+                            <fieldset id="typ">
+                                <legend>• Type de Pizza •</legend>   
+                                <div id="liste">                             
+                                <p id="type">
+                                    <form name="pizza">
+                                    <select required>                                        
+                                       <option name="pizza" id="pz" value="radio">Pizza Peperonnie</option> 
+                                       <option>Pizza Vegetarienne</option> 
+                                       <option>Paul Pizza</option> 
+                                       <option>Margherita Pizza</option> 
+                                       <option>Neopolitan Pizza Dough</option> 
+                                       <option>Pao Pizza</option> 
+                                       <option>Pizza Hawaiienne</option> 
+                                       <option>Pizza au jambon</option> 
+                                       <option>Barbecue Chicken Pizza</option> 
+                                       <option>CauliFlower Pizza Crust</option>                                                                          
+                                    </select>
+                                </form>
+                                </p><br>
+                                <p>
+                                    <label for="quantite" id="qt"> &#5440 Quantite </label>
+                                    <input type="number" id="quantite" name="quantite" min="1" max="20" required/> 
+                                </p>
+                                <p><img src="image/icone/11-clock.png" alt="" id="clock"> Date commande <input type="datetime-local" id="date" required/></p>
+                               <div id="thirdForm">
+                                <fieldset id="tay">
+                                    <legend>• Taille •</legend>
+                                    <p id="taille">
+                                        Large &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="taille" id="taille" required/><br>
+                                        Medium <input type="radio" name="taille" id="taille" required/><br>
+                                        Petit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="taille" id="taille" required/><br>
+                                    </p>
+                                </fieldset>
+                               </div>
+                            </div>
+                            </fieldset>
+                           </div>
+                          <!-- ==================== -->                            
+                          
+                           <div id="frthForm">
+                            <fieldset>
+                                <legend>• Type de Paiement •</legend>
+                                <p id="paie">
+                                    MonCash <input type="tel" name="cash" placeholder="+509......" /> <input type="radio" name="cash" id="cash" required/>
+                                    Carte de Credit <input type="password" name="cash" placeholder="000 000 000 000" /> <input type="radio" name="cash" id="cash" required>
+                                    Autre Service 
+                                    <textarea></textarea>
+                                 </p>                               
+                            </fieldset>
+                           </div>
+                        <div id="envoie">
+                            <button type="reset" value="Delete" name="del"><img src="image/icone/01-refresh.png" width="15px" alt=""/> Reset</button>
+                            <button type="submit" value="Envoyer" name="env"><img src="image/icone/40-inbox.png" width="15px" alt=""/> Send</button>                            
+                        </div>
+                      </fieldset>
+                  </form>
+              </div>
+        </div>
+    <!-- ================ -->
+    <div id="pied">
+        <section id="sec2">
+            
+            <h5>"IMMORTALISEZ QUELQUES INSTANTS AVEC SCHADD PIZZA".</h5><br>
+        </section>
+         <section id="sec1">
+           <a href="#"><img src="logo/facebook.png" alt="facebook" class="face"/></a>
+           <a href="#"><img src="logo/twitter.png" alt="twiter" class="twit"/></a>
+           <a href="#"></a><img src="logo/instagram.png" alt="instagram" class="inst"/></a>
+         </section> 
+         <p id="copy">&copy;Copyright 2022 Schadd Pizza </p> 
+         <img src="image/icone/linear-example.gif" width="40px" height="10px" alt="" id="xend"/>
+         <em style="color: white;">Rue Casimir, Delmas 24, HAITI</em>    
+     </div>
+        
+    <!-- ================ -->
+    </div>
+</body>
+</html>

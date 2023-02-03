@@ -1,0 +1,103 @@
+
+#photoPiz {
+    margin-top: 3%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -0.9%;
+    /* axe principale*/
+    justify-content: space-evenly;
+}
+#photoPiz img {
+    border: 1px solid orange;
+    border-radius: 180px;
+    margin-top: -1%;
+    width: 120px;
+    height: 120px;
+    transition: 0.6s;    
+}
+#photoPiz img:hover {
+    width: 110px;
+    height: 110px;
+}
+#photoPiz .p_{margin-left: 5%;}
+
+#p1 h2{font-size: 1em; color: crimson;}
+.p_ h2{font-size: 1em; color: crimson;}
+/* ===================== */
+#photoPiz_ {
+    margin-top: 3%;
+    height: auto;
+    margin-left: -4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* axe principale */
+    justify-content: space-evenly;
+}
+#photoPiz_ img {
+    border-radius: 180px;
+    border: 1px solid orange;
+    margin-top: -2%;
+    width: 120px;
+    height: 120px;
+    transition: 0.6s;
+}
+#photoPiz_ img:hover{
+    width: 110px;
+    height: 110px;
+}
+#photoPiz_ .p_{margin-left: 3%;}
+
+#p1 h2{font-size: 1em;}
+.p_ h2{font-size: 1em;}
+
+
+
+button {
+    padding: 2%;
+    margin-top: 3%;
+    width: 100px;
+    border-radius: 25px;
+    background-color: khaki;
+}
+button a{
+    text-decoration: none;
+    color: #f16413;
+}
+
+button a:hover{color: white; }
+button:hover{background-color: #f16413; color: #fff;}
+/* ================== */
+#pied_{
+
+    background-color: #f16413;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 170px;
+}
+#sec_ {
+    display: flex;
+    width: 150px;
+    flex-direction: row;
+    margin-left: 45%;
+    /* margin-top: -3%; */
+}
+#sec_ .face{width: 40px; border: 1px solid; border-radius: 40px; border: 1px solid;}
+#sec_ .twit{border: 1px solid; border-radius: 40px; margin-left: 17%; width: 40px; height: 40px;}
+#sec_ .inst{border: 1px solid; border-radius: 40px; margin-left: 12%; width: 40px; height: 40px;}
+/* ====== */
+#sec_ .face:hover{background-color: aliceblue; filter: grayscale(100%);}
+#sec_ .twit:hover{background-color: aliceblue; filter: grayscale(100%);}
+#sec_ .inst:hover{background-color: aliceblue; filter: grayscale(100%);}
+
+#sec{    
+    font-size: 1.5em; 
+    color: white;
+    margin: auto;
+ }
+#sec h5{font-family: cursive; color: white; font-size: 0.7em; transition: 0.2s;}
+#sec h5:hover{ color: rgb(248, 224, 9);}
+#copy{float: left; color: white;}

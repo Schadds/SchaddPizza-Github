@@ -1,0 +1,57 @@
+#container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid crimson;
+    background-color: rgb(36, 8, 197);
+    color: white;
+    height: auto;
+}
+body{width: 100%;}
+#content{width: 100%; height: auto;}
+#contact h3{
+   width: 50%;
+   margin: 0 auto;
+   margin-top: 4%;
+   height: auto;
+   color: aliceblue;
+   transition: 0.5s;
+}
+#contact h3:hover{color: rgb(255, 198, 85);}
+#contact p{
+    width: 55%;
+    padding: 1em;
+    margin: 0 auto;
+    font-size: 1.2em;
+    height: auto;
+    transition: 2s;
+    font-family: cursive;
+}
+#contact p:hover{
+    color: rgb(255, 198, 85);
+} 
+#contact_{
+    width: 60%; 
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 1.2em;
+    margin-bottom: 25vh;
+    height: auto;
+    transition: 1.4s;
+    font-family: cookie;
+}
+
+
+#phone{float: left;margin-left: 4%; }
+#phone img, #facebook img, #twit img, #inst img,#email img {border: 1px solid #f5efef; border-radius: 35px; }
+#whats{float: left; margin-left: 4%;  }
+#facebook{float: left; margin-left: 4%;  margin-bottom: 10%;font-size: 1.2em;}
+#email{float: left; margin-left:7%; font-size: 1.2em;}
+#twit{float: left; margin-left: 4%;font-size: 1.2em;}
+#inst{float: left; margin-left: 4%;font-size: 1.2em; }
+/* --------- HOVER ------------ */
+#phone:hover{color: rgb(255, 198, 85);}
+#facebook:hover{color: rgb(255, 198, 85);}
+#email:hover{color: rgb(255, 198, 85);}
+#twit:hover{color: rgb(255, 198, 85);}
+#inst:hover{color: rgb(255, 198, 85);}
+#whats:hover{color: rgb(255, 198, 85);}

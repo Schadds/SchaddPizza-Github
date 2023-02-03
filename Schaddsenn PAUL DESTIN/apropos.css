@@ -1,0 +1,82 @@
+body{width: 100%;}
+#content{width: 100%;}
+#corp {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+}
+#container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#tab{
+    width: auto;
+}
+th{
+    font-family: cookie;
+    background-color: aliceblue;
+    color: rgb(255, 140, 105);
+}
+.td1{
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 80px;
+    width: 50%;
+    border-radius: 70%;
+}
+.td1:hover{
+    width: 70%;
+    margin-left: 50px;
+}
+#td2{
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 80px;
+    width: 45%;
+    border-radius: 70%;
+}
+#td2:hover{
+    width: 60%;
+    margin-left: 50px;
+}
+td{
+    font-size: 1.3em;
+    width: 40%;
+    background-color: rgb(241, 245, 248);
+}
+td p{
+    font-family: cookie;
+    font-size: 1.2em;
+    color: #ff3c00e6;
+    margin-left: 90px;
+}
+.prix{
+    font-family: cookie;
+    font-size: 2em;
+    color: rgba(255, 204, 0, 0.9);
+    margin-left: 150px;
+}
+#tab{
+   border: 1px solid orange;
+}
+tr{
+    border: 1px solid orangered;
+}
+.ingr{
+    width: 250px;
+    font-size: 0.6em;
+    font-family: cursive;
+    color: sienna;
+}
+.prep{
+    margin-left: 12px;
+    font-size: 1.4em;
+}
+.apropos{
+    color: #fff;
+    background-color: rgb(236, 157, 11);
+}
